@@ -1,0 +1,16 @@
+{
+	"res_code":1,
+	"res_error":"",
+	"res_body":{
+			"list":[
+			{"img":"/requirejs/images/m1.jpg","price":123,"title":"女装"},
+			{"img":"/requirejs/images/m2.jpg","price":103,"title":"女装"},
+			{"img":"/requirejs/images/m3.jpg","price":145,"title":"女装"},
+			{"img":"/requirejs/images/m4.jpg","price":100,"title":"女装"},
+			{"img":"/requirejs/images/m1.jpg","price":123,"title":"女装"},
+			{"img":"/requirejs/images/m2.jpg","price":103,"title":"女装"},
+			{"img":"/requirejs/images/m3.jpg","price":145,"title":"女装"},
+			{"img":"/requirejs/images/m4.jpg","price":100,"title":"女装"}
+			]
+	}
+}

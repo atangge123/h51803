@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>模块化</title>
+	<style>
+		#box{
+			width:100px;
+			height:100px;
+			background: red;
+		}
+	</style>
+</head>
+<body>
+	<div id="box"></div>
+	<div class="list"></div>
+	<!--/*创建template模板*/-->
+	<script type="text/html" id="list_template">
+			{{each list prop}}
+				<div style="border: 1px solid red;display: inline-block;">
+					<img src="{{prop.img}}">
+					<div class="title">{{prop.title}}</div>
+					<div class="price">￥{{prop.price}}</div>
+				</div>
+			{{/each}}
+		
+	</script>
+	
+	
+	<script src="lib/require/require.js" data-main="module/index"></script>
+<!--//	<script>
+//		/*require(["module/tools.js", "module/ajax.js"], function(tools, ajax){
+//			// tools.$();
+//			// tools.css();
+//			tools.on();
+//			ajax.get();
+//			// console.log(arguments)
+//		});*/
+//	</script>
+//	<script>
+//		require(["module/config"], function(){
+//			require(["c","a"], function(c,a){
+//				c.carousel();
+////				a.get();
+//				a.post();
+//			});
+//		});
+		
+	<!--</script>-->
+</body>
+</html>
